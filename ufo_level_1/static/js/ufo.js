@@ -14,7 +14,9 @@ console.log(tableData);
 //     });
 // });
 
-function wiFilter(sighting) {
-    return sighting.state === "wi";
+function dateFilter(sighting) {
+    return sighting.datetime < "1/10/2010";
 }
-console.log(wiFilter);
+var dateSighting = data.filter(dateFilter);
+console.log(dateSighting);
+
