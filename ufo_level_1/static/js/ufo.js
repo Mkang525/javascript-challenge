@@ -14,11 +14,11 @@ console.log(tableData);
 //     });
 // });
 
-function dateFilter(sighting) {
-    return sighting.datetime < "1/10/2010";
-};
-var dateSighting = data.filter(dateFilter);
-console.log(dateSighting);
+// function dateFilter(sighting) {
+//     return sighting.datetime < "1/10/2010";
+// };
+// var dateSighting = data.filter(dateFilter);
+// console.log(dateSighting);
 
 var inputField = d3.select("#datetime");
 
